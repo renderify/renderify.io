@@ -1,0 +1,93 @@
+body {
+	margin: 0;
+	background: #3A1C71;
+	background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);
+	background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+#penrose {
+    margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    transform: rotate(-30deg);
+}
+
+div {
+	position: absolute;
+}
+
+.color {
+	background: rgb(0,0,0);
+}
+
+.transparent {
+	background-color: transparent;
+}
+
+.trap:hover {
+    background: white;
+}
+
+#trap-one {
+	height: 240px;
+	width: 24px;
+	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.3) 33%);
+	transform: skewX(-30deg) translate(-320%,-10%);
+}
+
+.color:hover {
+    background: white;
+}
+
+#trap-two {
+	height: 22px;
+	width: 280px;
+	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.3) 33%);
+	transform: skewX(30deg) translate(-32%,595%);
+}
+
+#trap-three {
+	height: 243px;
+	width: 24px;
+	background: linear-gradient(30deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.3) 33%);
+	transform: skew(30deg) skewY(-40deg) translate(370%,35%);
+}
+
+#trap-four {
+	width: 250px;
+	height: 0;
+	border-bottom: 24px solid rgba(0,0,0,0.5);
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	
+	transform: translate(-7%,450%);
+}
+
+#trap-five {
+	width: 254px;
+	height: 0;
+	border-bottom: 24px solid rgba(0,0,0,0.5);
+	border-left: 14px solid transparent;
+	border-right: 14px solid transparent;
+	transform: rotate(-120deg) translate(-22%,226%);
+}
+
+#trap-six {
+	width: 250px;
+	height: 0;
+	border-bottom: 24px solid rgba(0,0,0,0.5);
+	border-left: 14px solid transparent;
+	border-right: 14px solid transparent;
+	transform: rotate(120deg) translate(2%,186%);
+}
+
+#renderify {
+    margin-top: 60px;
+    margin-left: 84px;
+    font-family: monospace;
+}
